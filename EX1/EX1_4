@@ -1,0 +1,17 @@
+def ex4 (x):
+    if x==1:
+        return "saturday"
+    elif x==2:
+        return "sunday"
+    elif x==3:
+        return "monday"
+    elif x==4:
+        return "tuesday"
+    elif x==5:
+        return "wednesday"
+    elif x==6:
+        return "thursday"
+    elif x==7:
+        return "friday"
+    else:
+        return "you should choose a number between 1-7"
