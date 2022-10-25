@@ -1,0 +1,6 @@
+def ex3 (a,b):
+    ex3=a+b-1
+    return "ex3"
+a=float(input("a is:"))
+b=float(input("b is:"))
+print(f"the answer is {a+b-1}")
