@@ -1,0 +1,6 @@
+def ex2(x,y):
+    ex2=x*y/2
+    return "ex2"
+x=float(input("enter x:"))
+y=float(input("enter y:"))
+print (f"area is {x*y/2}")
