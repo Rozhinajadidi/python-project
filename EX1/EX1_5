@@ -1,0 +1,9 @@
+def ex5 (x):
+    if x<=1:
+        return "you are a new born baby"
+    elif x<=13:
+        return "you are a child"
+    elif x<=20:
+        return "you are a teenager"
+    else :
+        return "you are an adult"
