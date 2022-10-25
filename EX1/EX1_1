@@ -1,0 +1,5 @@
+def ex1 (x): 
+    ex1=x+1
+    return "ex1"
+x=int(input("enter your number:"))
+print (f"the result is {x+1}")
