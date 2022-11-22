@@ -1,0 +1,12 @@
+def ex3_6(int_list):
+    '''
+    ([int])-> str
+    '''
+    x=max(int_list)-min(int_list)
+    face=''
+    for number in int_list:
+        if number==x:
+            return ":)"
+        else:
+            return ":("
+    return face
