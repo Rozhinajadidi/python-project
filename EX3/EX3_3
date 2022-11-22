@@ -10,7 +10,7 @@ def coordinates(list1):
         elif directions == 'w':
             x[1]-=1
     return x
-def ex3_6(list1):
+def ex3_3(list1):
     difault=[["e", "n", "e", "e", "n"],["w", "n", "w", "n", "w", "w", "n"]]
     dis_loc1=coordinates(difault[0])
     dis_loc2=coordinates(difault[1])
