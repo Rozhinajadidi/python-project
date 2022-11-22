@@ -1,0 +1,9 @@
+def ex3_4(a,b,c):
+    '''
+    (int,int,int)->bool
+    '''
+    a*=b
+    if a%c==0:
+        return True
+    else:
+        return False
