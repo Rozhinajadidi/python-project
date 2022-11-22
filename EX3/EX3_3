@@ -1,0 +1,21 @@
+x=[0,0]
+def coordinates(list1):
+    for directions in list1:
+        if directions == 'n':
+            x[0]+=1
+        elif directions == 's':
+            x[0]-=1
+        elif directions == 'e':
+            x[1]+=1
+        elif directions == 'w':
+            x[1]-=1
+    return x
+def ex3_6(list1):
+    difault=[["e", "n", "e", "e", "n"],["w", "n", "w", "n", "w", "w", "n"]]
+    dis_loc1=coordinates(difault[0])
+    dis_loc2=coordinates(difault[1])
+    final_dis=coordinates(list1)
+    if final_dis == dis_loc1 or final_dis == dis_loc2:
+        return True
+    else:
+        return False
